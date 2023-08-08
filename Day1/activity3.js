@@ -4,6 +4,6 @@ const dateToday = Date.now()
 
 const daysAlive = (dateToday - birthDate)/(1000 * 60 * 60 * 24)
 
-console.log(`I have been alive for ${daysAlive.toFixed(0)} days.`);
+console.log(`I have been alive for ${Math.round(daysAlive)} days.`);
 
 
