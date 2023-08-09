@@ -1,6 +1,8 @@
-let word = "hello";
-let stringWord = word.split("");
-let lastLetter = word[word.length - 1]
+let word = "nation";
 
+if (word.charAt(0) === word.charAt(word.length - 1)){
+    console.log("True");
+} else{
+    console.log("False");
+}
 
-// Not done yet
